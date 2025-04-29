@@ -1,13 +1,37 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles/styles.css">
     <title>Home</title>
 </head>
 <body>
-    <header></header>
-    <main></main>
-    <footer></footer>
+    <header class="header-jogo">
+        <h1 id="titulo-pagina">Hello, World!</h1>
+    </header>
+    <main class="container">
+        <div class="container-tabela">
+            <h2>Barra de informações</h2>
+            <div class="container-tebela-infomacoes">
+                <h3 id="local-nome-jogador">Jogador: </h3>
+                <h4 id="respostas-corretas"></h4>
+                <h4 id="respostas-erradas"></h4>
+            </div>
+        </div>
+        <section class="container-section-jogo">
+            <p id="tela-pergunta" class="tela-pergunta" rows="2" cols="20"></p>
+           
+            <div class="area-respostas" id="area-respostas">
+
+
+            </div>
+           
+        </section>
+    </main>
+    <footer class="rodape">
+        <p>Desenvolvido por Erick Almeida</p>
+    </footer>
+    <script src="/js/script.js"></script>
 </body>
 </html>

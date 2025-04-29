@@ -1,0 +1,1 @@
+Olá! Este é o Jogo das Capitais. O objetivo é testar se você sabe as capitais das unidades federativas do Brasil.
